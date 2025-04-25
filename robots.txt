@@ -1,0 +1,9 @@
+User-agent: *
+
+#Folders
+
+Disallow: /projects/
+
+#Files
+
+SiteMap: http://jerry-ronski.com/sitemap.xml
