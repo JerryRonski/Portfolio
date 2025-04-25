@@ -1,0 +1,88 @@
+:root {
+    --text-header: #ffffff;
+    --text: #2c3e4f;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.color-text {
+    color: var(--text-header);
+}
+
+.color-text:hover {
+    color: var(--text);
+}
+
+body {
+    background-color: #e2d4b8;
+    position: absolute;
+    color: var(--text);
+}
+
+/* --- navbar --- */
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    background-color: #9c9584;
+    width: 100%;
+}
+
+/* --- Profile --- */
+
+.profile {
+    text-align: center;
+    padding: 5%;
+}
+
+.profile img {
+    width: 40%;
+    border: #000000 solid 1px;
+    border-radius: 20px;
+}
+
+/* --- Projects --- */
+
+.projects {
+    width: 70%;
+    padding: 5%;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.card {
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+/* --- About --- */
+
+.about {}
+
+/* --- Contact --- */
+
+.contact {
+    padding: 2%;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+footer {
+    background-color: #9c9584;
+    padding: 2%;
+}
+
+.links a {
+    font-size: 2em;
+    margin: 0 2%;
+    padding: 1%;
+    text-decoration: none;
+    color: var(--text);
+}
